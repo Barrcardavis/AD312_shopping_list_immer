@@ -1,16 +1,36 @@
-# React + Vite
+# AD312 Shopping List (Immer)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application demonstrating state management with **Immer** by building an interactive shopping list. Users can add items, categorize them, include notes, adjust quantities, and delete entries — all powered by immutable state updates using Immer’s `produce()` function.
 
-Currently, two official plugins are available:
+## Features
+- Add new shopping list items with name, category, and notes
+- Increase or decrease item quantity
+- Delete items from the list
+- Clean, responsive UI
+- State updates handled with **Immer** for immutable logic
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React
+- Immer
+- Vite
+- JavaScript (ES6+)
+- CSS
 
-## React Compiler
+## How to Run
+1. Install dependencies:
+   ```bash
+   npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Start the development server:
+npm run dev
 
-## Expanding the ESLint configuration
+Project Structure
+src/
+  ├── App.jsx
+  ├── App.css
+  ├── components/
+  │     └── ShoppingListWithImmer.jsx
+  └── main.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Purpose
+This project was created for AD312 – Advanced JavaScript Frameworks to practice using Immer for clean, immutable state management inside React applications.
