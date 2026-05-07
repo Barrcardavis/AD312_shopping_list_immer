@@ -24,6 +24,7 @@ A simple React application demonstrating state management with **Immer** by buil
 Start the development server:
    ```bash
 npm run dev
+```
 
 Project Structure
 src/
