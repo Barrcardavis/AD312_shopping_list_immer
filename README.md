@@ -22,7 +22,7 @@ A simple React application demonstrating state management with **Immer** by buil
    npm install
 
 Start the development server:
-
+```bash
 npm run dev
 
 Project Structure
